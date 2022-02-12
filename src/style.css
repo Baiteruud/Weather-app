@@ -40,3 +40,8 @@ header {
 .inputStyle:focus{
     background-color:rgb(120, 222, 248) ;
 }
+p{
+    font-family: 'Manrope', sans-serif;
+    color: blanchedalmond;
+    padding-left: 1vw;
+}
