@@ -11,6 +11,7 @@
 
 body {
     background-color: var(--nightColor);
+    min-width: 100%;
 }
 
 .container {
