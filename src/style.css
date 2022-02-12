@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -15,7 +16,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -24,4 +25,13 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 3%;
+}
+input{
+    height: 70px;
+    width: 300px;
+    border: none;
+    font-size: 25px;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 20px;
 }
