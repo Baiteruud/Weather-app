@@ -25,3 +25,9 @@ header {
     justify-content: center;
     padding-top: 3%;
 }
+input{
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+}
