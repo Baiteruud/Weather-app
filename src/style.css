@@ -22,6 +22,16 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 3%;
+}
+#search-button{
+    height: 35px;
+    width: 200px;
+    margin-left: 10px;
+    background-color: #7c5295;
+}
+
+#search-button::placeholder {
+    color: #322d31;
 }
