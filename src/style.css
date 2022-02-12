@@ -23,8 +23,8 @@ body {
 header {
     display: flex;
     justify-content: flex-start;
-    padding-top: 3%;
-    flex-direction: row;
+    padding-top: 1%;
+    
 }
 #search-button{
     height: 35px;
@@ -47,7 +47,7 @@ header {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 5px 0px;
+    margin: 10px 0px;
 
     margin-left: 100px;
 
