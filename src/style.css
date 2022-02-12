@@ -34,6 +34,14 @@ header {
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    color: #6B7280;
+    color: #9CA3AF
 }
 
+.city{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #ffffff;
+}
