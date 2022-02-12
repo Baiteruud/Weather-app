@@ -29,9 +29,14 @@ header {
 .inputStyle{
     height: 3vh;
     width: 25vw;
-    background-color:rgb(120, 222, 248);
-    color: white;
+    background-color:white;
+    color:rgb(255, 255, 255);
     border: 1px solid black;
     border-radius: 100px;
     font-size: medium;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 1vw;
+}
+.inputStyle:focus{
+    background-color:rgb(120, 222, 248) ;
 }
