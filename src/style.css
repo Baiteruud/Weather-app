@@ -91,3 +91,35 @@ main{
     flex-grow: 0;
     margin: 0px 0px;
 }
+
+.city{
+    position: static;
+    width: 132px;
+    height: 66px;
+    left: 0px;
+    top: 25px;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+
+    color: #111827;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.locationMarker{
+    background-color: violet;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 250px;
+    top: 275px;
+    /* left: 334px; */
+    /* top: 93px; */
+}
