@@ -25,3 +25,13 @@ header {
     justify-content: center;
     padding-top: 3%;
 }
+
+#Location{
+    height: 150%;
+    width: 100%;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+input[type="search"]{
+    font-size: 24px;
+}
