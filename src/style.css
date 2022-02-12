@@ -11,6 +11,8 @@
 
 body {
     background-color: var(--nightColor);
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
@@ -24,4 +26,17 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 3%;
+}
+
+.searchBar{
+    width: 125%;
+    height: 250%;
+    background-color: rgba(31, 31, 31, 0.993);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.searchBar, select, textarea{
+    color: rgb(139, 139, 139);
 }
