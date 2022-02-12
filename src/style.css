@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -11,6 +13,8 @@
 
 body {
     background-color: var(--nightColor);
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
@@ -24,4 +28,38 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 3%;
+}
+.containerTwo{
+    width: 450px;
+    height: 1000px;
+    background-color: #bebebe;
+    border-radius: 40px 40px 40px 40px;
+}
+input{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    font-family: 'Manrope';
+    left: 965px;
+    top: 150px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+.line-bot{
+    width: 250px;
+    height: 6px;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    left: 995px;
+    bottom: 90px;
+}
+.line-top{
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    left: 995px;
+    top: 65px;
+    border-radius: 0px 0px 40px 40px;
 }
