@@ -1,3 +1,4 @@
+
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -24,4 +25,13 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 3%;
+}
+.inputStyle{
+    height: 3vh;
+    width: 25vw;
+    background-color:rgb(120, 222, 248);
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    font-size: medium;
 }
