@@ -11,6 +11,7 @@
 
 body {
     background-color: var(--nightColor);
+    min-width: 100%;
 }
 
 .container {
@@ -24,4 +25,30 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 3%;
+}
+
+.date{
+    color: #6b7280;
+    width: 164px;
+    height: 25px;
+    font-family: 'Manrope', sans-serif;
+    Font-style: Medium;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+}
+.name{
+    X: 0px;
+    Y: 25px;
+    width: 174px;
+    height: 66px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    Font-size: 48px;
+    Line-height: 66px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
 }
