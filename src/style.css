@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -30,4 +31,36 @@ input{
     border-radius: 10px;
     width: 250px;
     height: 25px;
+}
+.date {
+    position: static;
+    width: 164px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6B7280;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.city {
+    position: static;
+    width: 174px;
+    height: 66px;
+    left: 0px;
+    top: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    margin-left: 40px;
+    color: #FFFFFF;
 }
