@@ -28,7 +28,7 @@ header {
 }
 input{
     margin-top: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 250px;
     height: 25px;
 }
@@ -47,8 +47,6 @@ input{
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 40px;
-    margin-top: 10px;
 }
 .city {
     position: static;
@@ -61,6 +59,11 @@ input{
     font-weight: 800;
     font-size: 48px;
     line-height: 66px;
-    margin-left: 40px;
     color: #FFFFFF;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 5%;
 }
