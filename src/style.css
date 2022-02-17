@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -25,3 +27,46 @@ header {
     justify-content: center;
     padding-top: 3%;
 }
+input{
+    margin-top: 10px;
+    height:25px;
+    width:200px;
+}
+p {
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+}
+#city {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color:#FFFFFF;
+}
+#date{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color:#6B7280;
+}
+
+.location{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right:40px;
+    margin-left:40px;
+    margin-top: 20px;
+  
+}
+.date-city{
+    display:flex;
+    flex-direction: column;
+    
+}
+.moon{
+    display: flex;
+    justify-content: center;
+    
+}
+
