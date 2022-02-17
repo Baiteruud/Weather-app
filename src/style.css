@@ -65,8 +65,25 @@ p {
     
 }
 .moon{
-    display: flex;
-    justify-content: center;
+    height:350px;
+    width:390px;
+    background-image: url("../assets/moon.svg");
+    background-position: center;
+    background-size: cover;
     
 }
-
+.temp{
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 197px;
+    background-color:linear-gradient(#F9FAFB 100%, #F9FAFB 0%  )
+}
+.status{
+    color:#FF8E27;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+.temp-status{
+    margin-left:45px;
+}
