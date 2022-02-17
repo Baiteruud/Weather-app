@@ -23,9 +23,10 @@ body {
 header {
     display: flex;
     justify-content: center;
-    padding-top: 3%;
 }
-
+.location{
+    padding-top:5%;
+}
 #Location{
     height: 150%;
     width: 100%;
@@ -33,11 +34,19 @@ header {
     border-radius: 20px;
 }
 input[type="search"]{
-    font-size: 24px;
+    font-size: 23px;
 }
-#Date{
-    margin-top: 5%;
-    margin-left: 22%;
-    border: solid 4px black;
-    border-radius: 30px;
+.font{
+    font-family: monospace;
+}
+.city{
+    font-size: 35px;
+}
+#Ping{
+    justify-content: flex-end;
+    position: fixed;
+}
+.stats{
+    display: flex;
+    justify-content: flex-end;
 }
