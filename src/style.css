@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -22,7 +23,7 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     padding-top: 1%;
     
 }
@@ -49,6 +50,44 @@ header {
     flex-grow: 0;
     margin: 10px 0px;
 
-    margin-left: 100px;
+    margin-left: 40px;
 
+}
+.city{
+    position: static;
+width: 174px;
+height: 66px;
+left: 0px;
+top: 25px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 66px;
+/* identical to box height */
+
+
+/* Neutral / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+margin-left: 40px;
+}
+main section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5% ;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5% ;
 }
