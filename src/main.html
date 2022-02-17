@@ -5,26 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <div>
-                <!-- (Input) Checkout issue 1 on Github -->
-            </div>
+            <!-- <div> -->
+                <input type="text" placeholder="Search City" class="searchBar">
+            <!-- </div> -->
         </header>
         <main>
             <section class="location">
-                <!-- (Date) Checkout issue 2 on Github -->
-                <!-- (Name) Checkout issue 3 on Github -->
+                <p class="date">September 10, 2021</p>
+                <p class="city">Kraków</p>
             </section>
+            <img class="locationMarker" src="../assets/localization_icon (3).svg"></img>
             <div class="stats">
                 <!-- (SVG) -->
+                <img src="../assets/icon.svg" alt="" class="dayNightIcon">
                 <!-- (Temp) -->
+                <p class="temp">14°</p>
                 <!-- (Status) -->
+                <p class="weatherInfo">Wind</p>
             </div>
         </main>
     </div>
+    <script src="enginer.js"></script>
 </body>
+
 </html>
