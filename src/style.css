@@ -158,9 +158,9 @@ main{
 }
 
 .locationMarker{
-    position: absolute;
+    position: static;
     width: 32px;
     height: 32px;
-    top: 240px;
     margin-left: 47.5%;
+    transform: translate(450%, -250%);
 }
