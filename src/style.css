@@ -31,7 +31,59 @@ input{
     width: 300px;
     border: none;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 25px;
     padding: 20px;
+}
+.date{
+width: 164px;
+height: 25px;
+left: 0px;
+top: 0px;
+margin-left: 30px;
+margin-top: 20px;
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+/* Cool Gray / 400 */
+color: #9CA3AF;
+}
+.city{
+    position: static;
+width: 174px;
+height: 66px;
+left: 0px;
+top: 25px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 66px;
+/* identical to box height */
+
+
+/* Neutral / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+margin-left: 30px;
+}
+img{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 334px;
+top: 163px;
+
 }
