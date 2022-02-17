@@ -55,8 +55,8 @@ header {
 }
 .city{
     position: static;
-width: 174px;
-height: 66px;
+    width: 174px;
+    height: 66px;
 left: 0px;
 top: 25px;
 
@@ -88,6 +88,26 @@ main section{
 }
 .stats{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     padding-top: 5% ;
+}
+.temp{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 197px;
+    background: -webkit-linear-gradient(#111827, #6B7280);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textContainer {
+    margin-left: 60px;
+}
+
+.status{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
 }
