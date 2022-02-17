@@ -67,7 +67,7 @@ main{
 
 .location{
     width: 40%;
-    height: 15%;
+    height: 10%;
     margin: 5% 10%;
 }
 
@@ -113,13 +113,54 @@ main{
     margin: 0px 0px;
 }
 
+.dayNightIcon{
+    margin-left: 10%;
+}
+
+.weatherInfo{
+    width: 61px;
+    height: 33px;
+    left: 0px;
+    top: 197px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 33px;
+    color: #27B1FF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10%;
+}
+
+.temp{
+    width: 219px;
+    height: 157px;
+
+    font-family: 'Manrope';
+    font-style: bold;
+    font-weight: 1000;
+    font-size: 144px;
+    line-height: 147px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 10%;
+
+    background: -webkit-linear-gradient(#111827, #6B7280);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .locationMarker{
-    background-color: violet;
     position: absolute;
     width: 32px;
     height: 32px;
-    right: 250px;
-    top: 275px;
-    /* left: 334px; */
-    /* top: 93px; */
+    top: 240px;
+    margin-left: 47.5%;
 }
