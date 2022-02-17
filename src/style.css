@@ -11,8 +11,8 @@
 
 body {
     background-color: var(--nightColor);
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
 }
 
 .container {
@@ -50,4 +50,33 @@ main section{
     font-size: 48px;
     line-height: 66px;
     color: #FFFFFF;
+}
+
+.status{
+    color: orange;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    padding-left: 10%;
+}
+
+.temp{
+    font-family:monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin-left: 10%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 40%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.smile{
+    width: 350px;
+    height: 350px;
+    background-image: url(../assets/icon.svg);
+    background-position: center;
+    background-size: cover;
 }
