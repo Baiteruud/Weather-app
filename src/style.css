@@ -32,18 +32,21 @@ header {
 .containerTwo{
     width: 450px;
     height: 1000px;
-    background-color: #bebebe;
+    background-color: var(--mainColor);
     border-radius: 40px 40px 40px 40px;
 }
 input{
     position: absolute;
-    height: 40px;
-    width: 300px;
+    height: 50px;
+    width: 360px;
     font-family: 'Manrope';
-    left: 965px;
-    top: 150px;
+    left: 940px;
+    top: 130px;
     border-radius: 10px 10px 10px 10px;
     border: 2px solid black;
+    background-color: rgb(218, 218, 218);
+    font-family: 'Manrope';
+    color: rgb(112, 112, 112);
 }
 .line-bot{
     width: 250px;
@@ -62,4 +65,38 @@ input{
     left: 995px;
     top: 65px;
     border-radius: 0px 0px 40px 40px;
+}
+span{
+    position: absolute;
+    font-size: 48px;
+    font-family: 'Manrope';
+    left: 965px;
+    top: 250px;
+}
+.date{
+    position: absolute;
+    font-family: 'Manrope';
+    left: 965px;
+    top: 220px;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+}
+.icon{
+    position: absolute;
+    top: 300px;
+    right: 880px;
+    height: 480px;
+    width: 480px;
+}
+.iconTwo{
+    position: absolute;
+    top: 240px;
+    right: 930px;
+    height: 30px;
+    width: 30px;
+}
+.temp{
+    position: absolute;
+    top: 740px;
+    right: 1100px;
 }
