@@ -67,3 +67,40 @@ section{
     flex-direction: row;
     padding-top: 5%;
 }
+.smilee{
+    background-image: url('../assets/moon.svg');
+    height: 375px;
+    width: 375px;
+    background-size: cover;
+    background-position: center;
+
+}
+.temp{
+    position: static;
+    width: 242px;
+    height: 197px;
+    left: 0px;
+    top: 0px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 197px;
+    background: linear-gradient(180deg, #F9FAFB 0%, #111827 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-left: 20px;
+}
+.icon{
+    position:absolute;
+    bottom: 20%;
+}
+.status{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FF8E27;
+    padding-left: 20px;
+}
