@@ -104,3 +104,58 @@ background: url(moon.png);
 opacity: 0.35;
 filter: blur(112px);
 }
+.status{
+    position: static;
+    width: 242px;
+    height: 197px;
+    left: 0px;
+    top: 0px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 197px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color:  grey;
+    margin-left: 30px;
+    margin-top: 240px
+    ;
+}
+h2 {
+    font-family: Manrope;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    position: static;
+width: 64px;
+height: 33px;
+left: 0px;
+top: 197px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* Colors / Orange */
+
+color: #FF8E27;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+margin-left: 30px ;
+font-size: xx-large;
+}
