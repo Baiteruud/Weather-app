@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <div>
-                 <input type="search" name="Your Location" id="Location">
-            </div>
+            <!-- <div> -->
+                <input type="text" placeholder="Search City" class="searchBar">
+            <!-- </div> -->
         </header>
         <main>
             <section class="location">
-                <div class="font">September 10, 2021</div>
-                <div class="city font">Krakow</div>
+                <p class="date">September 10, 2021</p>
+                <p class="city">Kraków</p>
             </section>
+            <img class="locationMarker" src="/Users/amartuvshin/Desktop/Weather-app/src/assets/localization_icon (1).svg"></img>
             <div class="stats">
-                <img src="/Users/amartuvshin/Desktop/Weather-app/src/assets/localization_icon (1).svg" id="Ping">
-                <img src="/Users/amartuvshin/Desktop/Weather-app/src/assets/icon.svg" >
+                <!-- (SVG) -->
+                <img src="/Users/amartuvshin/Desktop/Weather-app/src/assets/icon.svg" alt="" class="dayNightIcon">
+                <!-- (Temp) -->
+                <p class="temp">14°</p>
                 <!-- (Status) -->
+                <p class="weatherInfo">Wind</p>
             </div>
         </main>
     </div>
