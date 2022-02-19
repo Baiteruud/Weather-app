@@ -38,7 +38,12 @@ function sendRequest(cityName){
 }
 
 function redirectData(data) {
-    console.log(data.main);
+    const tempe = (data.main.temp);
+    const tsagAgaar = document.querySelector(".temp");
+    tsagAgaar.textContent = Math.floor(data.main.temp - 273.15) + "°";
+    const cityN =(data.name + ", " + data.sys.country)
+    const city = document.querySelector("#city");
+    city.textContent = cityN;
 }
 
     
