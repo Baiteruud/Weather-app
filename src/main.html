@@ -11,13 +11,13 @@
     <div class="container">
         <header>
             <div>
-                <input class="searchbar" type="text">
+                <input class="searchbar" type="text" placeholder="searchCity" id="autocomplete">
             </div>
         </header>
         <main>
             <section class="location">
                 <div>
-                    <p class="date">February 12, 2022</p>
+                    <p class="date"></p>
                     <p class="city">Kraków</p>
                 </div>
                 <img class="localization_icon" src="../assets/localization_icon.svg" alt="">
@@ -30,5 +30,8 @@
         </main>
     </div>
     <script src="enginer.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnaFlyzoIvS7XBjirgL3QGHF3NLFH4yE0&libraries=places&callback=initAutocomplete">
+</script>
 </body>
 </html>

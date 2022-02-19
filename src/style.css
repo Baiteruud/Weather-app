@@ -50,7 +50,6 @@ input{
 }
 .city {
     position: static;
-    width: 174px;
     height: 66px;
     left: 0px;
     top: 25px;
@@ -77,7 +76,6 @@ section{
 }
 .temp{
     position: static;
-    width: 242px;
     height: 197px;
     left: 0px;
     top: 0px;
