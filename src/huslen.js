@@ -38,3 +38,8 @@ function sendRequest(cityName){
 function displayData(weatherData){
     console.log(weatherData)
 }
+ 
+function displayData(Tsaguur){
+const cityName=document.querySelector('.city');
+cityName.textContent=Tsaguur.name +", "+Tsaguur.sys.country;
+}
