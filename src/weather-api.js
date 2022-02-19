@@ -1,14 +1,15 @@
 const input = document.querySelector('.searchBar')
-const date = document.querySelector('date')
-const locationName = document.querySelector('city')
-const temperature = document.querySelector("temp")
-const weatherStatus = document.querySelector("weatherInfo")
+const dateText = document.querySelector('.date')
+const locationName = document.querySelector('.city')
+const temperature = document.querySelector(".temp")
+const weatherStatus = document.querySelector(".weatherInfo")
 const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
+  "July", "August", "September", "October", "November", "December"];
 let respond = {}
 
 input:addEventListener('keypress', eventListener);
+const getDate = (date) => monthNames[date.getMonth()]+" "+date.getDate()+", "+date.getFullYear()
+dateText.textContent = getDate(new Date)
 
 const api = {
     apiKey : "aca70e6e79d9fee2253ce3b91631ee48",
@@ -16,8 +17,8 @@ const api = {
 }
 
 function displayInfo(info){
-    console.log(info)
-    locationName.value = info.name
+    locationName.textContent = info.name
+    dateText.textContent = getDate(new Date)
 }
 
 function sendRequest(cityName){

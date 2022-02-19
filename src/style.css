@@ -21,9 +21,6 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    /* min-height: 100vh; */
-    /* min-width: 100vw; */
-
     width: 414px;
     height: 896px;
     left: 0px;
