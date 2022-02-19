@@ -48,7 +48,7 @@ header {
 .searchBar{
     width: 90%;
     height: 50%;
-    background-color: rgba(153, 153, 153, 0.514);
+    background-color: rgba(204, 204, 204, 0.514);
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -57,6 +57,7 @@ header {
 .searchBar, select, textarea{
     color: rgb(139, 139, 139);
 }
+
 
 main{
     height: 100%;
@@ -91,8 +92,9 @@ main{
 
 .city{
     position: static;
-    width: 132px;
-    height: 66px;
+    /* width: 132px; */
+    width: 180%;
+    height: 150%;
     left: 0px;
     top: 25px;
 
@@ -101,6 +103,7 @@ main{
     font-weight: 800;
     font-size: 48px;
     line-height: 66px;
+    font-size: 250%;
 
     color: #111827;
 
@@ -134,7 +137,7 @@ main{
 }
 
 .temp{
-    width: 219px;
+    width:80%;
     height: 157px;
 
     font-family: 'Manrope';

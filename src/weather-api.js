@@ -9,7 +9,30 @@ let respond = {}
 
 input:addEventListener('keypress', eventListener);
 const getDate = (date) => monthNames[date.getMonth()]+" "+date.getDate()+", "+date.getFullYear()
+const formatTemperature = (temp) => Math.round((temp - 273.15))
 dateText.textContent = getDate(new Date)
+
+let autocomplete
+
+function initAutocomplete() {
+    autocomplete = new google.maps.places.Autocomplete(
+    input, 
+    {
+    types : ["(cities)"],
+    // componentRestrictions: {},
+    fields: ['place_id', 'geometry', 'name']});
+
+    autocomplete.addListener('place_changed', onPlaceChanged);
+}
+
+function onPlaceChanged() {
+    var place = autocomplete.getPlace();
+    if (!place.geometry) {
+        input.placeholder = "Enter a place";
+    } else {
+        sendRequest(place.name)
+    }
+}
 
 const api = {
     apiKey : "aca70e6e79d9fee2253ce3b91631ee48",
@@ -17,8 +40,10 @@ const api = {
 }
 
 function displayInfo(info){
-    locationName.textContent = info.name
+    locationName.textContent = info.name+", "+info.sys.country
     dateText.textContent = getDate(new Date)
+    temperature.textContent = formatTemperature(info.main.temp)
+    weatherStatus.textContent = info.weather[0].main
 }
 
 function sendRequest(cityName){
