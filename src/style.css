@@ -76,7 +76,9 @@ p {
     font-weight: 800;
     font-size: 144px;
     line-height: 197px;
-    background-color:linear-gradient(#F9FAFB 100%, #F9FAFB 0%  )
+    background: linear-gradient(180deg, #F9FAFB 0%, rgba(249, 250, 251, 0) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .status{
     color:#FF8E27;
