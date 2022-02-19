@@ -40,10 +40,12 @@ const api = {
 }
 
 function displayInfo(info){
-    locationName.textContent = info.name+", "+info.sys.country
-    dateText.textContent = getDate(new Date)
-    temperature.textContent = formatTemperature(info.main.temp)
-    weatherStatus.textContent = info.weather[0].main
+    if (info) {
+        locationName.textContent = info.name+", "+info.sys.country
+        dateText.textContent = getDate(new Date)
+        temperature.textContent = formatTemperature(info.main.temp)
+        weatherStatus.textContent = info.weather[0].main
+    }
 }
 
 function sendRequest(cityName){
