@@ -5,36 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <div>
-                <!-- (Input) Checkout issue 1 on Github -->
-                <input type="text" id="autocomplete" placeholder="Search City" class="searchBar">
-            </div>
+            <!-- <div> -->
+                <input type="text" placeholder="Enter a place" class="searchBar" id="autocomplete">
+            <!-- </div> -->
         </header>
         <main>
             <section class="location">
-                <!-- (Date) Checkout issue 2 on Github -->
-                <div>
-                    <p class="date">September 10, 2021</p>
-                    <!-- (Name) Checkout issue 3 on Github -->
-                    <p class="city">Kraków</p>
-                </div>
-                <img class="localizationIcon" src="../assets/localization_icon.svg">
+                <p class="date">September 10, 2021</p>
+                <p class="city">Kraków</p>
             </section>
+            <img class="locationMarker" src="../assets/localization_icon.svg"></img>
             <div class="stats">
                 <!-- (SVG) -->
-                <img class="smile" src="../assets/nightSunny.svg" height="350px" width="350px">
+                <img src="../assets/icon (3).svg" alt="" class="dayNightIcon">
                 <!-- (Temp) -->
-                <p class="temp">26˚</p>
+                <p class="temp">14°</p>
                 <!-- (Status) -->
-                <p class="status">Sunny</p>
+                <p class="weatherInfo">Wind</p>
             </div>
         </main>
     </div>
-    <script src="enginer.js"></script>
+    <script src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnaFlyzoIvS7XBjirgL3QGHF3NLFH4yE0&libraries=places&callback=initAutocomplete" async defer>
+    </script>
 </body>
 </html>
