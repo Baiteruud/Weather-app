@@ -84,19 +84,19 @@ span{
 .icon{
     position: absolute;
     top: 300px;
-    right: 880px;
+    left: 880px;
     height: 480px;
     width: 480px;
 }
 .iconTwo{
     position: absolute;
     top: 240px;
-    right: 930px;
+    left: 930px;
     height: 30px;
     width: 30px;
 }
 .temp{
     position: absolute;
     top: 740px;
-    right: 1100px;
+    left: 950px;
 }
