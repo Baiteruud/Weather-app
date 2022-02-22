@@ -112,12 +112,8 @@ main{
     flex-grow: 0;
     margin: 0px 0px;
 }
-
-.dayNightIcon{
-  
-}
-
 .weatherInfo{
+   
     width: 61px;
     height: 33px;
     left: 0px;
@@ -137,6 +133,7 @@ main{
 }
 
 .temp{
+
     width: 219px;
     height: 157px;
 

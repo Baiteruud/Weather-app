@@ -14,7 +14,7 @@
     <div class="container">
         <header>
             <!-- <div> -->
-                <input type="text" placeholder="Search City" class="searchBar">
+                <input type="text" placeholder="Search City" class="searchBar" id="autocomplete">
             <!-- </div> -->
         </header>
         <main>
@@ -34,6 +34,9 @@
         </main>
     </div>
     <script src="enginer.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnaFlyzoIvS7XBjirgL3QGHF3NLFH4yE0&libraries=places&callback=initAutocomplete">
+</script>
 </body>
 
 </html>
